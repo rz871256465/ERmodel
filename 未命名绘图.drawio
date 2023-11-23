@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T20:18:37.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="x5qxLmM0Bali45twjixe" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T23:36:00.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="tb73SARWdj3YHeA7fTcF" version="22.1.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="3240" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1724" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2354,6 +2354,15 @@
               <mxPoint x="1725" y="2368" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qhJmXPBLpjItSudEdXl1-2" value="&lt;br&gt;Overall Design Decision Notes&lt;br&gt;We divide information about museums, artworks, artists, exhibitions, etc. into independent entity tables. Doing so facilitates data classification, maintenance and query, while improving data manageability." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1245.75" width="350" height="114.25" as="geometry" />
+        </mxCell>
+        <mxCell id="qhJmXPBLpjItSudEdXl1-3" value="We use foreign keys to relate data in different tables, such as art to artists, museums to museum associations, etc. This association helps understand the relationship between data and makes querying and data retrieval more convenient." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1035" y="1485.25" width="240" height="164.75" as="geometry" />
+        </mxCell>
+        <mxCell id="qhJmXPBLpjItSudEdXl1-5" value="Each entity has a unique identifier (for example: MuseumID, ArtObjectID, etc.). This helps ensure that each entity can be uniquely identified, making it easier to retrieve and correlate relevant information" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1501" width="200" height="114.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
