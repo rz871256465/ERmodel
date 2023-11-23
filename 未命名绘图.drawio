@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T23:36:00.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="tb73SARWdj3YHeA7fTcF" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T23:42:42.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ggFzvaWJJZ5ZRUu4L8jD" version="22.1.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1724" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="4127" dy="1417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2363,6 +2363,33 @@
         </mxCell>
         <mxCell id="qhJmXPBLpjItSudEdXl1-5" value="Each entity has a unique identifier (for example: MuseumID, ArtObjectID, etc.). This helps ensure that each entity can be uniquely identified, making it easier to retrieve and correlate relevant information" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="25" y="1501" width="200" height="114.25" as="geometry" />
+        </mxCell>
+        <mxCell id="qhJmXPBLpjItSudEdXl1-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1116" width="430" height="114.25" as="geometry" />
+        </mxCell>
+        <mxCell id="qhJmXPBLpjItSudEdXl1-6" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1205" y="1223.13" as="sourcePoint" />
+            <mxPoint x="1305" y="1123.13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qhJmXPBLpjItSudEdXl1-8" value="&lt;div&gt;&amp;nbsp;relationships&lt;/div&gt;&lt;div&gt;etc: 1 to many&lt;/div&gt;&lt;div&gt;1 to 1&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="1140" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qhJmXPBLpjItSudEdXl1-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1245" y="1223.13" as="sourcePoint" />
+            <mxPoint x="1345" y="1123.13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qhJmXPBLpjItSudEdXl1-10" value="Table" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1445" y="1125" width="115" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="qhJmXPBLpjItSudEdXl1-12" value="columns （PK）" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="qhJmXPBLpjItSudEdXl1-10">
+          <mxGeometry y="25" width="115" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="qhJmXPBLpjItSudEdXl1-13" value="Other columns" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="qhJmXPBLpjItSudEdXl1-10">
+          <mxGeometry y="50" width="115" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
