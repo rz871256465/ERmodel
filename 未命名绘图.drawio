@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T23:43:48.909Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="k4vd1VcIMLa2oeZ6jWAM" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-24T14:25:50.423Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="kEBss_w02pvNWTPmAiCF" version="22.1.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="3240" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1412" dy="243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SGoWt56uiUYlHHw4keDK-648" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-350" y="1086.25" width="2050" height="960" as="geometry" />
+          <mxGeometry x="-260" y="1049.25" width="2050" height="960" as="geometry" />
         </mxCell>
         <mxCell id="SGoWt56uiUYlHHw4keDK-371" value="BorrowedArtObject" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="5" y="1851.25" width="220" height="160" as="geometry" />
@@ -376,7 +376,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SGoWt56uiUYlHHw4keDK-601" value="Classification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SGoWt56uiUYlHHw4keDK-452" vertex="1" connectable="0">
+        <mxCell id="SGoWt56uiUYlHHw4keDK-601" value="classify" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SGoWt56uiUYlHHw4keDK-452" vertex="1" connectable="0">
           <mxGeometry x="-0.268" y="4" relative="1" as="geometry">
             <mxPoint x="18" y="1" as="offset" />
           </mxGeometry>
@@ -396,7 +396,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SGoWt56uiUYlHHw4keDK-602" value="Classification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SGoWt56uiUYlHHw4keDK-453" vertex="1" connectable="0">
+        <mxCell id="SGoWt56uiUYlHHw4keDK-602" value="classify" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SGoWt56uiUYlHHw4keDK-453" vertex="1" connectable="0">
           <mxGeometry x="0.12" y="6" relative="1" as="geometry">
             <mxPoint x="-19" y="-2" as="offset" />
           </mxGeometry>
@@ -417,9 +417,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SGoWt56uiUYlHHw4keDK-603" value="Classification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SGoWt56uiUYlHHw4keDK-454" vertex="1" connectable="0">
+        <mxCell id="SGoWt56uiUYlHHw4keDK-603" value="classify" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SGoWt56uiUYlHHw4keDK-454" vertex="1" connectable="0">
           <mxGeometry x="-0.2934" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SGoWt56uiUYlHHw4keDK-634" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="SGoWt56uiUYlHHw4keDK-454" vertex="1" connectable="0">
@@ -1256,7 +1256,7 @@
           <mxGeometry x="1676" y="1419.25" width="5" height="5" as="geometry" />
         </mxCell>
         <mxCell id="SGoWt56uiUYlHHw4keDK-613" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;fillColor=#330000;" parent="1" vertex="1">
-          <mxGeometry x="930" y="1690.75" width="5" height="5" as="geometry" />
+          <mxGeometry x="941" y="1690.75" width="5" height="5" as="geometry" />
         </mxCell>
         <mxCell id="SGoWt56uiUYlHHw4keDK-615" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;fillColor=#330000;" parent="1" vertex="1">
           <mxGeometry x="458" y="1632.75" width="5" height="5" as="geometry" />
@@ -2355,41 +2355,49 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qhJmXPBLpjItSudEdXl1-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;Overall Design Decision Notes&lt;br&gt;We divide information about museums, artworks, artists, exhibitions, etc. into independent entity tables. Doing so facilitates data classification, maintenance and query, while improving data manageability.&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="qhJmXPBLpjItSudEdXl1-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;Overall Design Decision Notes&lt;br&gt;We divide information about museums, artworks, artists, exhibitions, etc. into independent entity tables. Doing so facilitates data classification, maintenance and query, while improving data manageability.&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="75" y="1210" width="350" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="qhJmXPBLpjItSudEdXl1-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;We use foreign keys to relate data in different tables, such as art to artists, museums to museum associations, etc. This association helps understand the relationship between data and makes querying and data retrieval more convenient.&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="qhJmXPBLpjItSudEdXl1-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;We use foreign keys to relate data in different tables, such as art to artists, museums to museum associations, etc. This association helps understand the relationship between data and makes querying and data retrieval more convenient.&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1035" y="1485.25" width="240" height="194.75" as="geometry" />
         </mxCell>
-        <mxCell id="qhJmXPBLpjItSudEdXl1-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Each entity has a unique identifier (for example: MuseumID, ArtObjectID, etc.). This helps ensure that each entity can be uniquely identified, making it easier to retrieve and correlate relevant information&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="qhJmXPBLpjItSudEdXl1-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Each entity has a unique identifier (for example: MuseumID, ArtObjectID, etc.). This helps ensure that each entity can be uniquely identified, making it easier to retrieve and correlate relevant information&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="25" y="1501" width="200" height="139" as="geometry" />
         </mxCell>
-        <mxCell id="qhJmXPBLpjItSudEdXl1-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="qhJmXPBLpjItSudEdXl1-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1200" y="1116" width="430" height="114.25" as="geometry" />
         </mxCell>
-        <mxCell id="qhJmXPBLpjItSudEdXl1-6" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" edge="1" parent="1">
+        <mxCell id="qhJmXPBLpjItSudEdXl1-6" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="1205" y="1223.13" as="sourcePoint" />
             <mxPoint x="1305" y="1123.13" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qhJmXPBLpjItSudEdXl1-8" value="&lt;div&gt;&amp;nbsp;relationships&lt;/div&gt;&lt;div&gt;etc: 1 to many&lt;/div&gt;&lt;div&gt;1 to 1&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qhJmXPBLpjItSudEdXl1-8" value="&lt;div&gt;&amp;nbsp;relationships&lt;/div&gt;&lt;div&gt;etc: 1 to many&lt;/div&gt;&lt;div&gt;1 to 1&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1315" y="1140" width="95" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qhJmXPBLpjItSudEdXl1-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" edge="1" parent="1">
+        <mxCell id="qhJmXPBLpjItSudEdXl1-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="1245" y="1223.13" as="sourcePoint" />
             <mxPoint x="1345" y="1123.13" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qhJmXPBLpjItSudEdXl1-10" value="Table" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qhJmXPBLpjItSudEdXl1-10" value="Table" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1445" y="1125" width="115" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="qhJmXPBLpjItSudEdXl1-12" value="columns （PK）" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="qhJmXPBLpjItSudEdXl1-10">
+        <mxCell id="qhJmXPBLpjItSudEdXl1-12" value="columns （PK）" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" parent="qhJmXPBLpjItSudEdXl1-10" vertex="1">
           <mxGeometry y="25" width="115" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="qhJmXPBLpjItSudEdXl1-13" value="Other columns" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="qhJmXPBLpjItSudEdXl1-10">
+        <mxCell id="qhJmXPBLpjItSudEdXl1-13" value="Other columns" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" parent="qhJmXPBLpjItSudEdXl1-10" vertex="1">
           <mxGeometry y="50" width="115" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T-6wZezE4m_mFk9qxpN1-1" value="display" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1025" y="1670.25" as="geometry">
+            <mxPoint x="-16" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T-6wZezE4m_mFk9qxpN1-2" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;fillColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1662.75" width="5" height="5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
